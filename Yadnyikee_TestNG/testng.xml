@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Grouping">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="TestNGFeatures.dependsOnMethod_Exception"/>
+      <class name="TestNGFeatures.Day1"/>
+      <class name="TestNGFeatures.Enabled2_XMLFile"/>
+      <class name="TestNGFeatures.Demo1"/>
+      <class name="TestNGFeatures.TimeOut"/>
+      <class name="TestNGFeatures.Day3"/>
+      <class name="TestNGFeatures.Day2"/>
+      <class name="TestNGFeatures.dependsOnMethod"/>
+      <class name="TestNGFeatures.invocationCoun"/>
+      <class name="TestNGFeatures.Enabled1"/>
+      <class name="TestNGFeatures.Keyword1"/>
+      <class name="TestNGFeatures.Keyword2"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Grouping -->

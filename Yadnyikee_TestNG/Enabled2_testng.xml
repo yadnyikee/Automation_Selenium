@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="smoke">
+    <classes>
+      <class name="TestNGFeatures.Enabled2_XMLFile">
+      <methods>
+		     <exclude name = "Test1"> </exclude>
+		     <exclude name = "Test2"> </exclude>
+		     <exclude name = "B"> </exclude>	  
+	  </methods>
+	  </class>
+     </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

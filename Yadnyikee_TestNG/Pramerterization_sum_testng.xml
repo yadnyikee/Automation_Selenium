@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="a" value="20"/>
+    <parameter name="b" value="10"/>
+  <test name="Test">
+	  
+	  <classes>
+      <class name="Parameterization.Sum1">  
+      <methods>
+		  
+		 <include name="Sum" />
+	 </methods>
+      </class>
+      
+      <class name="Parameterization.Sum2">  
+      <methods>
+		  <include name="Sub" />
+	 </methods>
+      </class>
+      <class name="Parameterization.Sum3">  
+      <methods>
+		  <include name="div" />
+	 </methods>
+      </class>
+    </classes>
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

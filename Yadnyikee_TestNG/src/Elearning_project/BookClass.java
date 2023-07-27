@@ -20,9 +20,8 @@ public class BookClass {
 
 	@BeforeMethod
 	public void Setup() {
-		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\A\\Desktop\\Installation\\chromedriver_win32\\chromedriver.exe");
-		driver = new ChromeDriver();
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\yadnyikee suresh kam\\Desktop\\ChromeDiver\\chromedriver.exe");
+		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
 		driver.get("https://byjus.com/");

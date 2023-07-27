@@ -16,8 +16,8 @@ public class BasicTest5 {
 	@Test(dataProvider = "loginData", dataProviderClass = ExcelDataSupllier.class)
 	public void TestLogin(String username, String password) throws Exception {
 		
-		//WebDriverManager.chromedriver().setup();
-		WebDriver driver = new ChromeDriver();
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\yadnyikee suresh kam\\Desktop\\ChromeDiver\\chromedriver.exe");
+		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		
 		driver.get("https://opensource-demo.orangehrmlive.com/");

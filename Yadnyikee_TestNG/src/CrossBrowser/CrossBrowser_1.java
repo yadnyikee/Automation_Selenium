@@ -15,11 +15,12 @@ public class CrossBrowser_1 {
 
 	@Test
 	public void OpenBrowser1() {
-		System.setProperty("WebDriver,Chrome,driver", "C:\\Users\\yadnyikee suresh kam\\Desktop\\installer\\chromedriver.exe");
-				
-		driver = new ChromeDriver();
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\yadnyikee suresh kam\\Desktop\\ChromeDiver\\chromedriver.exe");
+		WebDriver driver=new ChromeDriver();
 
 		System.out.println("Welcome To Automation Testing");
+		
+		System.out.println("Hello");
 		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 
 		driver.manage().window().maximize();

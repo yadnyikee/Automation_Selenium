@@ -16,11 +16,8 @@ public class SecondProgram {
 	@Test(dataProvider = "Logindata")
 
 	public void Logintest(String Uname, String Pwd, String Expected) {
-		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\A\\Desktop\\Installation\\chromedriver_win32\\chromedriver.exe");
-
-		driver = new ChromeDriver();
-
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\yadnyikee suresh kam\\Desktop\\ChromeDiver\\chromedriver.exe");
+		driver=new ChromeDriver();
 		driver.get("https://admin-demo.nopcommerce.com/login");
 
 		driver.manage().window().maximize();

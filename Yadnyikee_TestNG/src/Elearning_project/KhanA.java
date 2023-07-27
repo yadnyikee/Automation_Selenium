@@ -15,9 +15,8 @@ public class KhanA {
 	 
 	@BeforeTest
 	public void OpenBrowser() throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\A\\Desktop\\Installation\\chromedriver_win32\\\\chromedriver.exe");
-
-		    driver= new ChromeDriver();
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\yadnyikee suresh kam\\Desktop\\ChromeDiver\\chromedriver.exe");
+		driver=new ChromeDriver();
 		    
 		    driver.get("https://www.khanacademy.org/");
 		    

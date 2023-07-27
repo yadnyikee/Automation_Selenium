@@ -18,10 +18,8 @@ public class BookFreeSession {
 
 	@BeforeMethod
 	public void OpenBrowser() throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\A\\Desktop\\Installation\\chromedriver_win32\\chromedriver.exe");
-
-		driver = new ChromeDriver();
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\yadnyikee suresh kam\\Desktop\\ChromeDiver\\chromedriver.exe");
+		driver=new ChromeDriver();
 
 		driver.get("https://byjus.com/byjus-classes-book-free-60-mins-class/?utm_source=google&utm_mode=CPA&utm_campaign=K10-IN");
 

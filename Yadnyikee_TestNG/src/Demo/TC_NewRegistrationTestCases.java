@@ -14,10 +14,8 @@ public class TC_NewRegistrationTestCases {
 	@BeforeMethod
 	public void intialization() {
 		
-		System.setProperty("webdriver.driver.chrome", "C:\\Users\\A\\Desktop\\Installation\\chromedriver_win32\\chromedriver.exe");
-		
-	    driver = new ChromeDriver();
-	    
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\yadnyikee suresh kam\\Desktop\\ChromeDiver\\chromedriver.exe");
+		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		
 		driver.get("https://demo.nopcommerce.com/");

@@ -10,8 +10,8 @@ import org.openqa.selenium.support.ui.Select;
 
 public class Demo1 {
 	public static void main(String[] args) throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\A\\Desktop\\Installation\\chromedriver_win32\\\\chromedriver.exe");
-		WebDriver driver = new ChromeDriver();
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\yadnyikee suresh kam\\Desktop\\ChromeDiver\\chromedriver.exe");
+		WebDriver driver=new ChromeDriver();
         driver.manage().window().maximize();
 		
     	driver.get("https://www.facebook.com/");

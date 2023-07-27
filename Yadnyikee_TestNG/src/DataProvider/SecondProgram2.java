@@ -15,10 +15,8 @@ public class SecondProgram2 {
 	@Test(dataProvider = "Logindata")
 
 	public void Logintest(String Uname, String Pwd) {
-		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\A\\Desktop\\Installation\\chromedriver_win32\\chromedriver.exe");
-
-		driver = new ChromeDriver();
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\yadnyikee suresh kam\\Desktop\\ChromeDiver\\chromedriver.exe");
+		WebDriver driver=new ChromeDriver();
 
 		driver.get("https://www.facebook.com/");
 
